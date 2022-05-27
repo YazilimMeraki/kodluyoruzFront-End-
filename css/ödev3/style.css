@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+}
+button {
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+/* Top menu */
+.top-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  justify-items: center;
+  vertical-align: middle;
+  width: 100%;
+}
+.top-menu * {
+  padding: 15px;
+}
+.hesap,
+.genel-menu {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin: 10px 15px 0 15px;
+}
+
+.hesap{
+    background-image: url(https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/css/odev2/google_homepage/assets/profilepic.jpg);
+    background-size: cover;
+}
+.hesap:hover,
+.genel-menu:hover {
+  background-color: rgb(44, 44, 44);
+}
+
+.logos {
+  margin: -8px;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://raw.githubusercontent.com/Kodluyoruz/taskforce/f6152518551e1acd6259cdf3f6a4a0825fb490a1/css/odev2/google_homepage/assets/appsbutton.svg);
+  background-size: 90% 90%;
+  background-repeat: no-repeat;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  top: 21%;
+  justify-content: center;
+}
+
+/* Search bar */
+.search {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-bar {
+  border-radius: 25px;
+  border: 1px rgb(155, 155, 155) solid;
+}
+
+.search i {
+  margin: 0 15px 0 15px;
+}
+
+.search-bar:hover,
+.search input:hover {
+  border: 0;
+  background-color: rgb(66, 66, 66);
+}
+.search input {
+  border: 0;
+  padding: 15px 20px 15px 20px;
+  background-color: transparent;
+  font-size: 20px;
+  width: 530px;
+}
+
+/* Buttons */
+.s-buttons {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 52%;
+}
+
+.s-buttons button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  margin-left: 5px;
+  font-size: 15px;
+}
+/* lang */
+
+.lang {
+  font-size: 15px;
+  position: absolute;
+  top: 62%;
+  text-align: center;
+  width: 100%;
+}
+
+/* footer */
+
+footer {
+    color: rgb(117, 117, 117);
+  background-color: rgb(22, 22, 22);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.up p{
+ 
+  padding: 15px 15px 14px 15px;
+}
+
+hr{
+    border:1px solid rgb(31, 31, 31);
+}
+.down{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+.down *{
+    margin-right: 15px;
+}
+
+.center{
+    margin-left: -155px;
+}
+.center i{
+    color: green;
+    margin-right: 5px;
+}
+
+
