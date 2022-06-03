@@ -39,3 +39,13 @@ Worst Case : Dizinin tersten sıralı olması : n^2
 Average Case : Dizinin normal dağılımı : n^2
 
 **Dizi sıralandıktan sonra 18 sayısı dizinin ortalarında olur.Bu sebeple Average Case kapsamına girer**
+
+
+## Soru 2
+
+#### [7,3,5,8,2,9,4,15,6] => ilk 4 aşama
+
+1- [3,7,5,8,2,9,4,15,6]
+2- [3,5,7,8,2,9,4,15,6]
+3- [2,3,5,7,8,9,4,15,6]
+4- [2,3,4,5,7,8,9,15,6]
